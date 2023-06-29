@@ -1,0 +1,235 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+container {
+  justify-content: center;
+  align-items: center;
+}
+
+.anakin {
+  background-image:     url("https://raw.githubusercontent.com/green-fox-academy/myfirstapp-syllabus/master/assets/first-website-header.png");
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: normal;
+  border-top: 5px solid black;
+  justify-content: flex-end;  
+  margin-top: 0px;
+  aspect-ratio: 981 / 309;
+}
+
+.name {
+  font-family: Abril Fatface;
+  font-size: 36px;
+  margin-left: 300px;
+  height: 0px;
+  border: none;
+  margin-bottom: 130px;
+  line-height: 50px;
+  font-weight: normal;
+}
+
+
+.border {
+  margin-left: 200px;
+  margin-right: 200px; 
+}
+
+.sidearrow-1 {
+  width: 100px;
+  font-family: Abril Fatface;
+  height: 100px;
+  background-color: lightgrey;
+  border-radius: 50%;
+  color: white;
+  font-size: 70px;
+  text-align: center; 
+  position: fixed; 
+  top: 50%;
+  left: -70px;
+  border: none
+}
+
+.sidearrow-1:hover {
+  background-color: grey;
+  left: -50px
+}
+
+.sidearrow-2 {
+  width: 100px;
+  font-family: Abril Fatface;
+  height: 100px;
+  background-color: lightgrey;
+  border-radius: 50%;
+  color: white;
+  font-size: 70px;
+  text-align: center; 
+  position: fixed; 
+  top: 50%;
+  right: -70px;
+  border: none
+}
+
+.sidearrow-2:hover {
+  background-color: grey;
+  right: -50px
+}
+
+.leftbutton {
+  width: 180px;
+  font-family: Abril Fatface;
+  height: 50px;
+  background-color: white;
+  border-radius: 50px;
+  text-color: black;
+  font-size: 16px;
+  text-align: center; 
+  position: fixed; 
+  bottom: 20px;
+  left: 20px;
+  border: 1px solid lightgrey;
+  box-shadow: 0px 2px 3px grey;
+}
+
+.rightbutton-1 {
+  width: 180px;
+  font-family: Abril Fatface;
+  height: 50px;
+  background-color: white;
+  border-radius: 50px;
+  color: white;
+  font-size: 70px;
+  text-align: center; 
+  position: fixed; 
+  bottom: 20px;
+  right: 20px;
+  border: 1px solid lightgrey;
+  box-shadow: 0px 2px 3px grey;
+}
+
+.rightbutton-2 {
+  width: 50px;
+  font-family: Abril Fatface;
+  height: 50px;
+  background-color: white;
+  border-radius: 50%;
+  color: white;
+  font-size: 70px;
+  text-align: center; 
+  position: fixed; 
+  bottom: 20px;
+  right: 215px;
+  border: 1px solid lightgrey;
+  box-shadow: 0px 2px 3px grey;
+}
+
+.rightbutton-3 {
+  width: 50px;
+  font-family: Abril Fatface;
+  height: 50px;
+  background-color: white;
+  border-radius: 50%;
+  color: white;
+  font-size: 70px;
+  text-align: center; 
+  position: fixed; 
+  bottom: 20px;
+  right: 280px;
+  border: 1px solid lightgrey;
+  box-shadow: 0px 2px 3px grey;
+}
+
+p, li {
+  font-family: "Josefin Sans";
+  font-size: 17px;
+  align-items: center;
+  line-height: 30px;
+  color: #222 grey
+}
+
+.content {
+  margin-left: 300px;
+  margin-right: 300px;
+  display: flex;
+  flex-direction: column;
+  margin-top: 35px
+}
+
+ul {
+  margin-left: -300px;
+  list-style-type: square;
+  margin-top: 0px;
+  margin-bottom: 30px
+}
+
+.quote {
+  font-family: Abril Fatface;
+  font-size: 44px;
+  color: white;
+  background-color: black;
+  height: 200px;
+  width: 115%;
+  display: flex;
+  align-items: center;
+  justify-content: center; 
+}
+
+
+h3 {
+  font-family: "Merriweather";
+  font-size: 15px;
+  font-style: italic;
+  margin-top: -30px
+}
+
+.ending {
+  border-top: 5px solid black;
+  width: 100%;
+  display: flex;
+  flex-direction: column
+}
+
+
+
+blockquote::before {
+  content: '”';
+  font-family: Abril Fatface;
+  font-size: 92px;
+  position: absolute;
+  margin-left: -725px;
+  margin-bottom: 190px;
+  transform: rotate(-180deg);
+}
+
+blockquote {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.quotecontent {
+  width: 90%;
+  font-size: 46px
+}
+
+h2 {
+  font-family: "Josefin Sans";
+  font-size: 23px;
+  align-items: center;
+  line-height: 30px;
+  color: #222 grey;
+  font-weight: bold;
+  margin-bottom: 35px;
+  margin-top: 35px
+}
+
+ul {
+  margin-left: 0px
+}
+
+.first {
+  margin-left: -300px
+}
